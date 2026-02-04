@@ -5,20 +5,20 @@ import { FaPinterest, FaInstagram, FaFolderOpen } from "react-icons/fa";
 // Images
 import unique1 from "../assets/unique1.jfif";
 import unique2 from "../assets/unique2.jfif";
-import unique3 from "../assets/unique3.jfif";
+import unique3 from "../assets/unique3.jpg";
 import unique4 from "../assets/unique4.jfif";
 import unique5 from "../assets/unique5.jfif";
-import unique6 from "../assets/unique6.jfif";
-import unique7 from "../assets/unique7.jfif";
-import unique8 from "../assets/unique8.jfif";
-import unique9 from "../assets/unique9.jfif";
-import unique10 from "../assets/unique10.jfif";
-import unique11 from "../assets/unique11.jfif";
+import unique6 from "../assets/unique6.jpg";
+import unique7 from "../assets/unique7.jpg";
+import unique8 from "../assets/unique8.jpg";
+import unique9 from "../assets/unique9.jpg";
+import unique10 from "../assets/unique10.jpg";
+import unique11 from "../assets/unique11.jpg";
 import unique12 from "../assets/unique12.jfif";
 import unique13 from "../assets/unique13.jfif";
 import unique14 from "../assets/unique14.jfif";
 import unique15 from "../assets/unique15.jfif";
-import unique16 from "../assets/unique16.jfif";
+import unique16 from "../assets/unique16.jpg";
 
 const portfolioImages = [
   unique1,
