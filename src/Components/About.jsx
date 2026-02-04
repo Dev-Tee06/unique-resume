@@ -77,7 +77,7 @@ export default function About() {
             Creative Designer & Social Media Manager shaping meaningful digital
             experiences through{" "}
             <span className="text-white font-semibold">
-              Full Spectrum Creative
+              Full Spectrum Creativity
             </span>
           </p>
         </motion.div>

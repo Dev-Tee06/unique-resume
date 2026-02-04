@@ -90,9 +90,9 @@ export default function Home() {
             className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6"
           >
             {[
-              ["50+", "Creative Designs Delivered"],
-              ["10+", "Brands & Projects Managed"],
-              ["3+", "Years Creative Experience"],
+              ["500+", "Creative Designs Delivered"],
+              ["50+", "Brands & Projects Managed"],
+              ["4+", "Years Creative Experience"],
             ].map(([value, label]) => (
               <div
                 key={label}

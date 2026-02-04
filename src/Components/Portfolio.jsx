@@ -116,69 +116,6 @@ export default function Portfolio() {
         </div>
       </div>
 
-      {/* TESTIMONIALS */}
-      <div className="max-w-7xl mx-auto mb-24">
-        <h2 className="text-3xl font-bold text-white mb-10 text-center">
-          What People Say
-        </h2>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Upper Room */}
-          <motion.div
-            className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl p-6 flex flex-col justify-between shadow-lg hover:scale-105 transition-transform duration-300"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-          >
-            <span className="text-amber-400 text-4xl mb-2">“</span>
-            <p className="text-slate-300 mb-4 text-sm">
-              Working with Unique Shobayo brought our monthly worship meetings
-              to life visually. His designs truly capture the heart of the Upper
-              Room experience.
-            </p>
-            <span className="mt-auto font-semibold bg-clip-text text-transparent bg-gradient-to-r from-amber-400 to-yellow-300">
-              Upper Room, Minister Dunsin Oyekan
-            </span>
-          </motion.div>
-
-          {/* Chapel of Transformation */}
-          <motion.div
-            className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl p-6 flex flex-col justify-between shadow-lg hover:scale-105 transition-transform duration-300"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
-            <span className="text-amber-400 text-4xl mb-2">“</span>
-            <p className="text-slate-300 mb-4 text-sm">
-              Unique's creative work helped us capture the fellowship and
-              spiritual growth our students experience every week. Truly
-              transformative visuals!
-            </p>
-            <span className="mt-auto font-semibold bg-clip-text text-transparent bg-gradient-to-r from-amber-400 to-yellow-300">
-              Chapel of Transformation, Fuoye Ikole Campus
-            </span>
-          </motion.div>
-
-          {/* Zion Experience */}
-          <motion.div
-            className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl p-6 flex flex-col justify-between shadow-lg hover:scale-105 transition-transform duration-300"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-          >
-            <span className="text-amber-400 text-4xl mb-2">“</span>
-            <p className="text-slate-300 mb-4 text-sm">
-              Unique Shobayo’s designs helped us bring the presence of God into
-              every event, making Zion Experience visually impactful and
-              inviting for all attendees.
-            </p>
-            <span className="mt-auto font-semibold bg-clip-text text-transparent bg-gradient-to-r from-amber-400 to-yellow-300">
-              – Zion Experience.
-            </span>
-          </motion.div>
-        </div>
-      </div>
-
       {/* LINKS */}
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
         {portfolioLinks.map((link) => (

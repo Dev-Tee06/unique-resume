@@ -33,17 +33,17 @@ export default function Services() {
   const stats = [
     {
       icon: <FaAward className="w-8 h-8 text-amber-400" />,
-      number: 50,
+      number: 500,
       label: "Completed Projects",
     },
     {
       icon: <FaUsers className="w-8 h-8 text-amber-400" />,
-      number: 30,
+      number: 50,
       label: "Happy Clients",
     },
     {
       icon: <FaProjectDiagram className="w-8 h-8 text-amber-400" />,
-      number: 2,
+      number: 4,
       label: "Years of Experience",
     },
   ];
