@@ -67,6 +67,7 @@ export default function Portfolio() {
     setSelectedIndex((prev) =>
       prev === 0 ? portfolioImages.length - 1 : prev - 1,
     );
+
   const nextImage = () =>
     setSelectedIndex((prev) =>
       prev === portfolioImages.length - 1 ? 0 : prev + 1,
@@ -154,27 +155,64 @@ export default function Portfolio() {
             >
               <img
                 src={portfolioImages[selectedIndex]}
+                alt="Selected work"
                 className="rounded-2xl max-h-[80vh]"
               />
 
-              <button
+              {/* PREVIOUS */}
+              <motion.button
                 onClick={prevImage}
-                className="absolute left-2 top-1/2 text-white text-3xl"
+                whileHover={{ scale: 1.15 }}
+                whileTap={{ scale: 0.95 }}
+                className="absolute left-4 top-1/2 -translate-y-1/2
+                           w-14 h-14 md:w-16 md:h-16
+                           flex items-center justify-center
+                           rounded-full
+                           bg-black/40 backdrop-blur-md
+                           border border-white/30
+                           text-white text-5xl font-extrabold
+                           shadow-lg shadow-amber-500/30
+                           hover:bg-amber-500 hover:text-black
+                           transition"
               >
                 ‹
-              </button>
-              <button
+              </motion.button>
+
+              {/* NEXT */}
+              <motion.button
                 onClick={nextImage}
-                className="absolute right-2 top-1/2 text-white text-3xl"
+                whileHover={{ scale: 1.15 }}
+                whileTap={{ scale: 0.95 }}
+                className="absolute right-4 top-1/2 -translate-y-1/2
+                           w-14 h-14 md:w-16 md:h-16
+                           flex items-center justify-center
+                           rounded-full
+                           bg-black/40 backdrop-blur-md
+                           border border-white/30
+                           text-white text-5xl font-extrabold
+                           shadow-lg shadow-amber-500/40
+                           hover:bg-amber-500 hover:text-black
+                           transition"
               >
                 ›
-              </button>
-              <button
+              </motion.button>
+
+              {/* CLOSE */}
+              <motion.button
                 onClick={() => setSelectedIndex(null)}
-                className="absolute top-2 right-2 text-white text-2xl"
+                whileHover={{ scale: 1.1, rotate: 90 }}
+                whileTap={{ scale: 0.9 }}
+                className="absolute top-4 right-4
+                           w-10 h-10
+                           rounded-full
+                           bg-black/40 backdrop-blur-md
+                           border border-white/30
+                           text-white text-2xl font-bold
+                           hover:bg-red-500
+                           transition"
               >
                 ×
-              </button>
+              </motion.button>
             </motion.div>
           </motion.div>
         )}
